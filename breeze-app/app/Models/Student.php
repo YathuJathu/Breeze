@@ -8,9 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Student extends Model
 {
     use HasFactory;
-    protected $guarded = [
-        "id",
-        "name", 
-        "email",
-    ];
+    protected $guarded = [];
 }
